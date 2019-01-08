@@ -288,7 +288,9 @@ static const CRPCCommand vRPCCommands[] =
     { "submitblock",            &submitblock,            true,     false,      false },
     { "sb",                     &submitblock,            true,     false,      false },
     { "getauxblock",            &getauxblock,            true,     false,      false },
-    { "gab",            	&getauxblock,            true,     false,      false },
+    { "gab",            	    &getauxblock,            true,     false,      false },
+    { "createauxblock",         &createauxblock,         true,     false,      false  },
+    { "submitauxblock",         &submitauxblock,         true,     false,      false  },
 
     /* Raw transactions */
     { "createrawtransaction",   &createrawtransaction,   true,     false,      false },
